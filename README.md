@@ -1,40 +1,62 @@
-# Introduction to Playwright
+# Playwright Tutorial Project
 
-Hi 👋🏽!
+## Overview
 
-Welcome to the course "Introduction to Playwright" by [Renata Andrade](https://testingwithrenata.com/) for the [Test Automation University](https://testautomationu.applitools.com/).
+Welcome to the Playwright Tutorial Project! This repository contains resources and exercises from two comprehensive Playwright courses that I have completed. The courses cover various aspects of Playwright, a powerful automation library for testing web applications. I utilized these resources to enhance my understanding and skills in Playwright.
 
-## Dependencies
+## Courses Included
 
-- Playwright v1.33.0
-- Node v19.8.1
-- npm v9.6.5
-- VSCode 1.77.3 (Universal)
-- Applitools v1.17.0
+### 1. Test Automation University - Introduction to Playwright
+- **Instructor**: [Renata Andrade](https://testingwithrenata.com/)
+- **Link**: [Introduction to Playwright](https://testautomationu.applitools.com/)
+- **Description**: This course provides a foundational understanding of Playwright, covering installation, setup, and basic testing strategies. It includes hands-on exercises to help you get started with writing tests using Playwright.
 
-> Pre requirements: 
-- [Node setup](https://nodejs.dev/en/learn/how-to-install-nodejs/)
-- [VS Code setup](https://code.visualstudio.com/learn/get-started/basics)
-- [iTerm setup](https://iterm2.com/documentation-one-page.html)
+### 2. YouTube - Playwright Tutorial by Raghav Pal
+- **Instructor**: [Raghav Pal](https://www.youtube.com/@RaghavPal)
+- **Link**: [Playwright Tutorial](https://www.youtube.com/@RaghavPal)
+- **Description**: This YouTube series dives deeper into Playwright, exploring advanced features and best practices for test automation. It includes practical examples and real-world scenarios to enhance your testing skills.
 
-## Fork and clone the project
+## Project Structure
 
-1. Copy the project URL `https://github.com/raptatinha/tau-introduction-to-playwright.git`;
-1. Fork the project following the [GitHub instructions](https://docs.github.com/en/get-started/quickstart/fork-a-repo) - (use the parameter --clone=true);
-1. Access the forked project `cd tau-introduction-to-playwright`
+The project is organized into the following directories:
 
-## Instal the project
+- `tests/`: Contains the test scripts created during the courses.
+- `pages/`: Implements the Page Object Model (POM) for better test organization and maintainability.
+- `utils/`: Includes utility functions and configurations for the tests.
+- `exercises/`: Contains exercises and additional resources from the courses.
 
-On your terminal, type:
+## Getting Started
 
-1. `npm i`
+To get started with this project, follow these steps:
 
-IMPORTANT: to run the tests from `main`, you'll need to setup your [.env](.env) following the [.env.example](.env.example), otherwise many tests will fail - this setup is explained in the Chapter 4 video. The recommendation is to access each branch (`git checkout [branchname]`) and run the tests from the branch.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/playwright-tutorial.git
+   cd playwright-tutorial
+   ```
 
-___
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-💡 Share on LinkedIn something interesting you've learned! Don't forget to tag me [Renata Andrade](https://www.linkedin.com/in/raptatinha/).
+3. **Run the tests**:
+   ```bash
+   npx playwright test
+   ```
 
-💜 If you have questions, feel free to post them on [github](https://github.com/raptatinha/tau-introduction-to-playwright/issues).
+## Contributing
 
-Happy Testing 🎭
+If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to [Renata Andrade](https://testingwithrenata.com/) and [Raghav Pal](https://www.youtube.com/@RaghavPal) for their excellent courses on Playwright, which I used to learn and improve my skills in test automation.
+
+## Connect with Me
+
+Feel free to connect with me on LinkedIn: [Evehenii Soroka](https://www.linkedin.com/in/evgeeso)
